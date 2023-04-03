@@ -6,11 +6,11 @@
  * the proprietary works, trade secrets, and copyrights of Embitel or its licensors.
  * For further information, contact community.ruggedboard.com / info@ruggedboard.com
  *
- * Application: 
- * Brief: 
- * Author: Natarajan S  ( natarajan.s@ruggedboard.com )
- * Title: Program Manager / Trainner
- * Last Modified Date: 19.09.2022
+ * Application: c program to check the entered number is greater than 20.
+ * Brief: Performed number comparison using if statement. 
+ * Author: Sai Bharat
+ * Title: Project Engineer
+ * Last Modified Date: 27.03.2023
  *
 /*********************************************************************************************/
 
@@ -20,6 +20,18 @@
 // Main Function
 int main()
 {
+     int a = 20;
+     int number;
+     printf("Enter a number: ");
+     scanf("%d", &number);
+     if(number > a)
+     {
+          printf("The number (%d) is greater than %d.\n\n", number, a);
+     }
+     else 
+     {
+          printf("The number (%d) is less than %d.\n\n", number, a);
+     }
      
      return 0;
 }

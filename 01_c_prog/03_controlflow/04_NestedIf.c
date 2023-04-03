@@ -6,11 +6,11 @@
  * the proprietary works, trade secrets, and copyrights of Embitel or its licensors.
  * For further information, contact community.ruggedboard.com / info@ruggedboard.com
  *
- * Application: 
- * Brief: 
- * Author: Natarajan S  ( natarajan.s@ruggedboard.com )
- * Title: Program Manager / Trainner
- * Last Modified Date: 19.09.2022
+ * Application: c program to give exact value of a and b using nested if statement.
+ * Brief: Program using nested if statement.
+ * Author: Sai Bharat
+ * Title: Project Engineer
+ * Last Modified Date: 27.03.2023
  *
 /*********************************************************************************************/
 
@@ -20,7 +20,15 @@
 // Main Function
 int main()
 {
-     
+     int a= 100, b= 200;
+     if(a == 100)
+     {
+          if(b == 200)
+          {
+               printf("Exact value of a is : %d\n", a);
+               printf("Exact value of b is : %d\n", b);
+          }
+     }
      return 0;
 }
 

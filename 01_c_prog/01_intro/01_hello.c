@@ -8,9 +8,9 @@
  *
  * Application: hello.c
  * Brief: This application is to print a greetings message on console.
- * Author: Natarajan S  ( natarajan.s@ruggedboard.com )
- * Title: Program Manager / Trainner
- * Last Modified Date: 19.09.2022
+ * Author: Sai Bharat
+ * Title: Project Engineer
+ * Last Modified Date: 20.03.2023
  *
 /*********************************************************************************************/
 
@@ -20,7 +20,7 @@
 // Main Function
 int main()
 {
-     printf("Greetings from RuggedBOARD Team \n");
+     printf("Greetings from RuggedBOARD Team\n");
      return 0;
 }
 
