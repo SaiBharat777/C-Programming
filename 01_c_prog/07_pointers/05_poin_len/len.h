@@ -1,0 +1,1 @@
+int strlength(char *str);
